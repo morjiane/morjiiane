@@ -1,0 +1,133 @@
+ @import url('https: //fonts.googleapis.com/css2?family=Raleway:wght@100.200.400.500&display=swap');
+ *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Raleway', sans-serif;
+ }
+ a {
+   text-decoration: 0;
+ }
+ html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9px;
+ }
+ ::-webkit-scrollbar {
+    width: 8px;
+ }
+ ::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+ }
+ body {
+    background-color: #ffccff;
+ }
+ section { 
+    margin-top: 50px;
+ }
+ header{
+    background-color: #cc66ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 5%;
+
+ }
+ header .logo a {
+   font-size: 25px;
+   color: #ccccff;
+   text-decoration: 0;
+
+ }
+ header .logo a span {
+   color: rgb(245, 18, 135);
+   
+ }
+ .menu {
+   display: flex;
+   align-items: center;
+ }
+ .menu li {
+   margin: 0 15px;
+list-style-type: none;
+}
+.menu li a {
+   color: #fff;
+   font-size: 14px;
+}
+.btn-reservation {
+   color: rgb(63, 4, 39);
+   font-size: 14px;
+   border: 2px solid rgb(6, 6, 6);
+   padding: 5px 20px;
+   transition: 0.5s;
+   font-weight: bold;
+}
+.btn-reservation:hoover {
+   background-color: #ccccff;
+color: #fff;
+
+}
+/* Home acceuil CSS */
+#home {
+   background: linear-gradient(rgba(0,0,0.1), #333),url("image//Users/Morji/Desktop/index.html");
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+}
+#home h2 {
+   font-size: 45px;
+   margin-bottom: 10px;
+   -webkit-text-stroke: #fff 0.02px;
+   color: transparent;
+   text-transform: lowercase;
+}
+#home h4 {
+   font-size: 50px;
+   color: #fff;
+   margin-bottom: 10px;
+   text-transform: capitalize;
+}
+#home p {
+   color: #fff;
+   margin-bottom: 10px;
+   font-size: 12px;
+}
+.home-btn {
+   margin-bottom: 20px;
+}
+.find_trip {
+   background-color: #ccccff;
+   padding: 20px;
+   width: 70%;
+   position: absolute;
+   border: 50px;
+}
+.find_trip form {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   width: 100%;
+}
+.find_trip form div, .find_trip form input[type="submit"]{
+   display: flex;
+   flex-direction: column;
+   width: 20%;
+}
+.find_trip form label {
+   color: #999;
+   font-size: 15px;
+   margin-bottom: 10px;
+}
+.find_trip form input
